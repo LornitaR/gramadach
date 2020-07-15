@@ -27,6 +27,18 @@ header {
     margin: 0.4rem 0.8rem 0rem 0rem;
 }
 
+.menu-modal {
+    width: 99%;
+
+    div {
+        flex: 1;
+    }
+}
+
+.dropdown-menu.show {
+    display: inline-flex !important;
+}
+
 footer {
     text-align: center;
     background-color: #e9ecef;

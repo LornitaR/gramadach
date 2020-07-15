@@ -1,7 +1,7 @@
 // update the HTML here
 function taispeáinGachRud() {
-  let header = `&nbsp<h3>An Aimsir Láithreach (The Present Tense)</h3>&nbsp
-                &nbsp<h4>Na Briathra Neamhrialta (Irregular Verbs)</h4>&nbsp`
+  let header = `&nbsp<h3 id='teideal'></h3>&nbsp
+                &nbsp<h4 id='fotheideal'></h4>&nbsp`
   
   let bord = `<div id="bord" class="table-responsive-sm"></div>`
 
@@ -11,4 +11,4 @@ function taispeáinGachRud() {
 }
 
 document.querySelector('main').innerHTML = taispeáinGachRud();
-let bordAimsirLáithreach = aimsirLáithreach();
+// let bordAimsirLáithreach = aimsirLáithreach();

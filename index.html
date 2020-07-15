@@ -31,13 +31,22 @@
     <header>
       <a href="http://lornitar.github.io/"><img class="logo" src="./assets/img/favicon.ico"></a>
       Gramadach le Lorna
-      <button class="btn menu" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <button class="btn menu" type="button" id="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
       </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-        <button class="dropdown-item" type="button">An Aimsir Caite</button>
-        <button class="dropdown-item" type="button">An Aimsir Láithreach</button>
-        <button class="dropdown-item" type="button">An Aimsir Fháisteanach</button>
+      <div class="dropdown-menu menu-modal" aria-labelledby="menu">
+        <div></div>
+        <div>
+          <!-- <button class="dropdown-item" type="button">An Aimsir Caite</button> -->
+          <button class="dropdown-item" onclick="aimsirLáithreach()" type="button">An Aimsir Láithreach</button>
+          <button class="dropdown-item" onclick="aimsirFháistineach()" type="button">An Aimsir Fháisteanach</button>
+        </div>
+        <div>
+          <button class="dropdown-item" type="button">An Aimsir Caite</button>
+          <button class="dropdown-item" type="button">An Aimsir Láithreach</button>
+          <button class="dropdown-item" type="button">An Aimsir Fháisteanach</button>
+        </div>
+        <div></div>
       </div>
     </header>
 
@@ -49,6 +58,7 @@
 
     <!-- other javascript files -->
     <script src="./src/scripts/aimsirLáithreach.js"></script>
+    <script src="./src/scripts/aimsirFháistineach.js"></script>
     <script src="./src/scripts/index.js"></script>
   </body>
 </html>

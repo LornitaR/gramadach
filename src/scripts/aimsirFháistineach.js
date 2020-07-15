@@ -1,5 +1,6 @@
-function aimsirLáithreach() {
-  let teideal = `An Aimsir Láithreach (The Present Tense)`;
+function aimsirFháistineach() {
+  this.aimsirFháistineachClear();
+  let teideal = `An Aimsir Fháistineach (The Future Tense)`;
   let fotheideal = `Na Briathra Neamhrialta (Irregular Verbs)`;
   let bord = `
                 <table id="briathra" class="table table-striped">
@@ -36,7 +37,7 @@ function aimsirLáithreach() {
                 <tbody>
                   <tr class=" ">
                     <td>I</th>
-                    <td>Deirim</th>
+                    <td>Déarfaidh mé</th>
                     <td>Beirim</th>
                     <td>Táim</th>
                     <td>Cloisim</th>
@@ -50,7 +51,7 @@ function aimsirLáithreach() {
                   </tr>
                   <tr class=" ">
                     <td>You</th>
-                    <td>Deir tú</th>
+                    <td>Déarfaidh tú</th>
                     <td>Beireann tú</th>
                     <td>Tá tú</th>
                     <td>Cloiseann tú</th>
@@ -64,7 +65,7 @@ function aimsirLáithreach() {
                   </tr>
                   <tr class=" ">
                     <td>He / She</th>
-                    <td>Deir sé / sí</th>
+                    <td>Déarfaidh sé / sí</th>
                     <td>Beireann sé / sí</th>
                     <td>Tá sé / sí</th>
                     <td>Cloiseann sé / sí</th>
@@ -78,7 +79,7 @@ function aimsirLáithreach() {
                   </tr>
                   <tr class=" ">
                     <td>We</th>
-                    <td>Deirimid</th>
+                    <td>Déarfaimid</th>
                     <td>Beirimid</th>
                     <td>Táimid</th>
                     <td>Cloisimid</th>
@@ -92,7 +93,7 @@ function aimsirLáithreach() {
                   </tr>
                   <tr class=" ">
                     <td>Ye / You(plural)</td>
-                    <td>Deir sibh</th>
+                    <td>Déarfaidh sibh</th>
                     <td>Beireann sibh</th>
                     <td>Tá sibh</th>
                     <td>Cloiseann sibh</th>
@@ -106,7 +107,7 @@ function aimsirLáithreach() {
                   </tr>
                   <tr class=" ">
                     <td>They</td>
-                    <td>Deir siad</th>
+                    <td>Déarfaidh siad</th>
                     <td>Beireann siad</th>
                     <td>Tá siad</th>
                     <td>Cloiseann siad</th>
@@ -120,7 +121,7 @@ function aimsirLáithreach() {
                   </tr>
                   <tr class=" ">
                     <td>It is (an briathar saor)</td>
-                    <td>Deirtar</th>
+                    <td>Déarfar</th>
                     <td>Beirtar</th>
                     <td>Táthar</th>
                     <td>Cloistear</th>
@@ -134,7 +135,7 @@ function aimsirLáithreach() {
                   </tr>
                   <tr class="table-info">
                     <td>Ceist / Question</td>
-                    <td>An ndeir tú?</td>
+                    <td>An nDéarfaidh tú?</td>
                     <td>An mbeireann tú?</td>
                     <td>An bhfuil tú?</td>
                     <td>An gcloiseann tú?</td>
@@ -148,7 +149,7 @@ function aimsirLáithreach() {
                   </tr>
                   <tr class="table-danger">
                     <td>Negative / Diúltach</td>
-                    <td>Ní deirim</td>
+                    <td>Ní déarfaidh mé</td>
                     <td>Ní beirim</td>
                     <td>Nílim</td>
                     <td>Ní chloisim</td>
@@ -162,7 +163,7 @@ function aimsirLáithreach() {
                   </tr>
                   <tr class="table-warning">
                     <td>Negative question</td>
-                    <td>Nach ndeir tú?</td>
+                    <td>Nach nDéarfaidh tú?</td>
                     <td>Nach mbeireann tú?</td>
                     <td>Nach bhfuil tú?</td>
                     <td>Nach gcloiseann tú?</td>
@@ -182,7 +183,7 @@ function aimsirLáithreach() {
   document.getElementById('fotheideal').innerHTML = fotheideal;
 }
 
-function aimsirLáithreachClear() {
+function aimsirFháistineachClear() {
   document.querySelector('#bord').innerHTML = ""; 
   document.getElementById('teideal').innerHTML = "";
   document.getElementById('fotheideal').innerHTML = "";
