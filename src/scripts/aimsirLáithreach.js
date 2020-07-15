@@ -3,6 +3,7 @@ function aimsirLáithreach() {
                 <table id="briathra" class="table table-striped">
                 <thead>
                   <tr>
+                    <th scope="col">Briathar</th>
                     <th scope="col">Abair</th>
                     <th scope="col">Beir</th>
                     <th scope="col">Bí</th>
@@ -16,6 +17,7 @@ function aimsirLáithreach() {
                     <th scope="col">Téigh</th>
                   </tr>
                   <tr>
+                    <th scope="col">Verb</th>
                     <th scope="col">to say</th>
                     <th scope="col">to catch</th>
                     <th scope="col">to be</th>
@@ -31,6 +33,7 @@ function aimsirLáithreach() {
                 </thead>
                 <tbody>
                   <tr class=" ">
+                    <td>I</th>
                     <td>Deirim</th>
                     <td>Beirim</th>
                     <td>Táim</th>
@@ -44,6 +47,7 @@ function aimsirLáithreach() {
                     <td>Téim</th>
                   </tr>
                   <tr class=" ">
+                    <td>You</th>
                     <td>Deir tú</th>
                     <td>Beireann tú</th>
                     <td>Tá tú</th>
@@ -57,6 +61,7 @@ function aimsirLáithreach() {
                     <td>Téann tú</th>
                   </tr>
                   <tr class=" ">
+                    <td>He / She</th>
                     <td>Deir sé / sí</th>
                     <td>Beireann sé / sí</th>
                     <td>Tá sé / sí</th>
@@ -70,6 +75,7 @@ function aimsirLáithreach() {
                     <td>Téann sé / sí</th>
                   </tr>
                   <tr class=" ">
+                    <td>We</th>
                     <td>Deirimid</th>
                     <td>Beirimid</th>
                     <td>Táimid</th>
@@ -78,11 +84,12 @@ function aimsirLáithreach() {
                     <td>Faighimid</th>
                     <td>Feicimid</th>
                     <td>Ithimid</th>
-                    <td>Tugaimid/th>
+                    <td>Tugaimid</th>
                     <td>Tagaimid</th>
                     <td>Téimid</th>
                   </tr>
                   <tr class=" ">
+                    <td>Ye / You(plural)</td>
                     <td>Deir sibh</th>
                     <td>Beireann sibh</th>
                     <td>Tá sibh</th>
@@ -96,6 +103,7 @@ function aimsirLáithreach() {
                     <td>Téann sibh</th>
                   </tr>
                   <tr class=" ">
+                    <td>They</td>
                     <td>Deir siad</th>
                     <td>Beireann siad</th>
                     <td>Tá siad</th>
@@ -109,6 +117,7 @@ function aimsirLáithreach() {
                     <td>Téann siad</th>
                   </tr>
                   <tr class=" ">
+                    <td>It is (an briathar saor)</td>
                     <td>Deirtar</th>
                     <td>Beirtar</th>
                     <td>Táthar</th>
@@ -122,6 +131,7 @@ function aimsirLáithreach() {
                     <td>Téitear</th>
                   </tr>
                   <tr class="table-info">
+                    <td>Ceist / Question</td>
                     <td>An ndeir tú?</td>
                     <td>An mbeireann tú?</td>
                     <td>An bhfuil tú?</td>
@@ -130,11 +140,12 @@ function aimsirLáithreach() {
                     <td>An bhfaigheann tú?</td>
                     <td>An bhfeiceann tú?</td>
                     <td>An itheann tú?</td>
-                    <td>An thugann tú?</td>
+                    <td>An dtugann tú?</td>
                     <td>An dtagann tú?</td>
                     <td>An dtéann tú?</td>
                   </tr>
                   <tr class="table-danger">
+                    <td>Negative / Diúltach</td>
                     <td>Ní deirim</td>
                     <td>Ní beirim</td>
                     <td>Nílim</td>
@@ -148,7 +159,8 @@ function aimsirLáithreach() {
                     <td>Ní théim</td>
                   </tr>
                   <tr class="table-warning">
-                    <td>Nach ndeir?</td>
+                    <td>Negative question</td>
+                    <td>Nach ndeir tú?</td>
                     <td>Nach mbeireann tú?</td>
                     <td>Nach bhfuil tú?</td>
                     <td>Nach gcloiseann tú?</td>
