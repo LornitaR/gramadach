@@ -8,7 +8,7 @@ function aimsirLáithreach() {
                     <th scope="col">Beir</th>
                     <th scope="col">Bí</th>
                     <th scope="col">Clois</th>
-                    <th scope="col">Dean</th>
+                    <th scope="col">Déan</th>
                     <th scope="col">Faigh</th>
                     <th scope="col">Feic</th>
                     <th scope="col">Ith</th>
@@ -122,7 +122,7 @@ function aimsirLáithreach() {
                     <td>Beirtar</th>
                     <td>Táthar</th>
                     <td>Cloistear</th>
-                    <td>Deantar</th>
+                    <td>Déantar</th>
                     <td>Faightear</th>
                     <td>Feictear</th>
                     <td>Ithear</th>

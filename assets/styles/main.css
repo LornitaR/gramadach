@@ -16,6 +16,12 @@ header {
   margin: 0.7rem 0rem 0rem 0.8rem;
 }
 
+.menu {
+  width: 2.5rem;
+  float: right;
+  margin: 0.4rem 0.8rem 0rem 0rem;
+}
+
 footer {
   text-align: center;
   background-color: #e9ecef;
