@@ -1,4 +1,5 @@
 function aimsirLáithreach() {
+  this.aimsirLáithreachClear();
   let teideal = `An Aimsir Láithreach (The Present Tense)`;
   let fotheideal = `Na Briathra Neamhrialta (Irregular Verbs)`;
   let bord = `
@@ -35,102 +36,102 @@ function aimsirLáithreach() {
                 </thead>
                 <tbody>
                   <tr class=" ">
-                    <td>I</th>
-                    <td>Deirim</th>
-                    <td>Beirim</th>
-                    <td>Táim</th>
-                    <td>Cloisim</th>
-                    <td>Déanaim</th>
-                    <td>Faighim</th>
-                    <td>Feicim</th>
-                    <td>Ithim</th>
-                    <td>Tugaim</th>
-                    <td>Tagaim</th>
-                    <td>Téim</th>
+                    <td>I</td>
+                    <td>Deirim</td>
+                    <td>Beirim</td>
+                    <td>Táim</td>
+                    <td>Cloisim</td>
+                    <td>Déanaim</td>
+                    <td>Faighim</td>
+                    <td>Feicim</td>
+                    <td>Ithim</td>
+                    <td>Tugaim</td>
+                    <td>Tagaim</td>
+                    <td>Téim</td>
                   </tr>
                   <tr class=" ">
-                    <td>You</th>
-                    <td>Deir tú</th>
-                    <td>Beireann tú</th>
-                    <td>Tá tú</th>
-                    <td>Cloiseann tú</th>
-                    <td>Déanann tú</th>
-                    <td>Faighean tú</th>
-                    <td>Feiceann tú</th>
-                    <td>Itheann tú</th>
-                    <td>Tugann tú</th>
-                    <td>Tagann tú</th>
-                    <td>Téann tú</th>
+                    <td>You</td>
+                    <td>Deir tú</td>
+                    <td>Beireann tú</td>
+                    <td>Tá tú</td>
+                    <td>Cloiseann tú</td>
+                    <td>Déanann tú</td>
+                    <td>Faighean tú</td>
+                    <td>Feiceann tú</td>
+                    <td>Itheann tú</td>
+                    <td>Tugann tú</td>
+                    <td>Tagann tú</td>
+                    <td>Téann tú</td>
                   </tr>
                   <tr class=" ">
-                    <td>He / She</th>
-                    <td>Deir sé / sí</th>
-                    <td>Beireann sé / sí</th>
-                    <td>Tá sé / sí</th>
-                    <td>Cloiseann sé / sí</th>
-                    <td>Déanann sé / sí</th>
-                    <td>Faighean sé / sí</th>
-                    <td>Feiceann sé / sí</th>
-                    <td>Itheann sé / sí</th>
-                    <td>Tugann sé / sí</th>
-                    <td>Tagann sé / sí</th>
-                    <td>Téann sé / sí</th>
+                    <td>He / She</td>
+                    <td>Deir sé / sí</td>
+                    <td>Beireann sé / sí</td>
+                    <td>Tá sé / sí</td>
+                    <td>Cloiseann sé / sí</td>
+                    <td>Déanann sé / sí</td>
+                    <td>Faighean sé / sí</td>
+                    <td>Feiceann sé / sí</td>
+                    <td>Itheann sé / sí</td>
+                    <td>Tugann sé / sí</td>
+                    <td>Tagann sé / sí</td>
+                    <td>Téann sé / sí</td>
                   </tr>
                   <tr class=" ">
-                    <td>We</th>
-                    <td>Deirimid</th>
-                    <td>Beirimid</th>
-                    <td>Táimid</th>
-                    <td>Cloisimid</th>
-                    <td>Déanaimid</th>
-                    <td>Faighimid</th>
-                    <td>Feicimid</th>
-                    <td>Ithimid</th>
-                    <td>Tugaimid</th>
-                    <td>Tagaimid</th>
-                    <td>Téimid</th>
+                    <td>We</td>
+                    <td>Deirimid</td>
+                    <td>Beirimid</td>
+                    <td>Táimid</td>
+                    <td>Cloisimid</td>
+                    <td>Déanaimid</td>
+                    <td>Faighimid</td>
+                    <td>Feicimid</td>
+                    <td>Ithimid</td>
+                    <td>Tugaimid</td>
+                    <td>Tagaimid</td>
+                    <td>Téimid</td>
                   </tr>
                   <tr class=" ">
                     <td>Ye / You(plural)</td>
-                    <td>Deir sibh</th>
-                    <td>Beireann sibh</th>
-                    <td>Tá sibh</th>
-                    <td>Cloiseann sibh</th>
-                    <td>Déanann sibh</th>
-                    <td>Faighean sibh</th>
-                    <td>Feiceann sibh</th>
-                    <td>Itheann sibh</th>
-                    <td>Tugann sibh</th>
-                    <td>Tagann sibh</th>
-                    <td>Téann sibh</th>
+                    <td>Deir sibh</td>
+                    <td>Beireann sibh</td>
+                    <td>Tá sibh</td>
+                    <td>Cloiseann sibh</td>
+                    <td>Déanann sibh</td>
+                    <td>Faighean sibh</td>
+                    <td>Feiceann sibh</td>
+                    <td>Itheann sibh</td>
+                    <td>Tugann sibh</td>
+                    <td>Tagann sibh</td>
+                    <td>Téann sibh</td>
                   </tr>
                   <tr class=" ">
                     <td>They</td>
-                    <td>Deir siad</th>
-                    <td>Beireann siad</th>
-                    <td>Tá siad</th>
-                    <td>Cloiseann siad</th>
-                    <td>Déanann siad</th>
-                    <td>Faighean siad</th>
-                    <td>Feiceann siad</th>
-                    <td>Itheann siad</th>
-                    <td>Tugann siad</th>
-                    <td>Tagann siad</th>
-                    <td>Téann siad</th>
+                    <td>Deir siad</td>
+                    <td>Beireann siad</td>
+                    <td>Tá siad</td>
+                    <td>Cloiseann siad</td>
+                    <td>Déanann siad</td>
+                    <td>Faighean siad</td>
+                    <td>Feiceann siad</td>
+                    <td>Itheann siad</td>
+                    <td>Tugann siad</td>
+                    <td>Tagann siad</td>
+                    <td>Téann siad</td>
                   </tr>
                   <tr class=" ">
                     <td>It is (an briathar saor)</td>
-                    <td>Deirtar</th>
-                    <td>Beirtar</th>
-                    <td>Táthar</th>
-                    <td>Cloistear</th>
-                    <td>Déantar</th>
-                    <td>Faightear</th>
-                    <td>Feictear</th>
-                    <td>Ithear</th>
-                    <td>Tugtar</th>
-                    <td>Tagtar</th>
-                    <td>Téitear</th>
+                    <td>Deirtar</td>
+                    <td>Beirtar</td>
+                    <td>Táthar</td>
+                    <td>Cloistear</td>
+                    <td>Déantar</td>
+                    <td>Faightear</td>
+                    <td>Feictear</td>
+                    <td>Ithear</td>
+                    <td>Tugtar</td>
+                    <td>Tagtar</td>
+                    <td>Téitear</td>
                   </tr>
                   <tr class="table-info">
                     <td>Ceist / Question</td>

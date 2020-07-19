@@ -3,7 +3,7 @@ function taispeáinGachRud() {
   let header = `&nbsp<h3 id='teideal'></h3>&nbsp
                 &nbsp<h4 id='fotheideal'></h4>&nbsp`
   
-  let bord = `<div id="bord" class="table-responsive-sm"></div>`
+  let bord = `<div id="bord" class="table-responsive-sm bord"></div>`
 
   
   gachRud = header + bord;
