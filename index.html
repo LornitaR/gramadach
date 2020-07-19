@@ -29,8 +29,24 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
 
     <header>
-      <a href="http://lornitar.github.io/"><img class="logo" src="./assets/img/favicon.ico"></a>
+      <a href="http://lornitar.github.io/"><img class="logo" src="./assets/img/logo.png"></a>
       Gramadach le Lorna
+      <button class="btn menu" type="button" id="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+      </button>
+      <div class="dropdown-menu menu-modal" aria-labelledby="menu">
+        <div></div>
+        <div>
+          <!-- <button class="dropdown-item" type="button">An Aimsir Caite</button> -->
+          <button class="dropdown-item" onclick="aimsirLáithreach()" type="button">An Aimsir Láithreach</button>
+          <button class="dropdown-item" onclick="aimsirCaite()" type="button">An Aimsir Caite</button>
+        </div>
+        <div>
+          <button class="dropdown-item" onclick="aimsirFháistineach()" type="button">An Aimsir Fháisteanach</button>
+          <button class="dropdown-item" onclick="módhCoinníollach()" type="button">An Modh Coinníollach</button>
+        </div>
+        <div></div>
+      </div>
     </header>
 
     <main class='container-fluid grid-container'></main>
@@ -41,6 +57,9 @@
 
     <!-- other javascript files -->
     <script src="./src/scripts/aimsirLáithreach.js"></script>
+    <script src="./src/scripts/aimsirFháistineach.js"></script>
+    <script src="./src/scripts/módhCoinníollach.js"></script>
+    <script src="./src/scripts/aimsirCaite.js"></script>
     <script src="./src/scripts/index.js"></script>
   </body>
 </html>
