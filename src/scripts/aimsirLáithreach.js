@@ -120,7 +120,7 @@ function aimsirLáithreach() {
                     <td>Téann siad</td>
                   </tr>
                   <tr class=" ">
-                    <td>It is (an briathar saor)</td>
+                    <td>Passive (an briathar saor)</td>
                     <td>Deirtar</td>
                     <td>Beirtar</td>
                     <td>Táthar</td>
