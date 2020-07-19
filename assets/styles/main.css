@@ -25,6 +25,7 @@ header {
 
 .menu-modal {
   width: 99%;
+  background-color: #d6efc0;
 }
 .menu-modal div {
   flex: 1;
