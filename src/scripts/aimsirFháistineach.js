@@ -120,7 +120,7 @@ function aimsirFháistineach() {
                     <td>Rachaidh siad</td>
                   </tr>
                   <tr class=" ">
-                    <td>It is (an briathar saor)</td>
+                    <td>Passive (an briathar saor)</td>
                     <td>Déarfar</td>
                     <td>Béarfar</td>
                     <td>Beifear</td>
