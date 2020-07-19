@@ -187,4 +187,5 @@ function aimsirFháistineachClear() {
   document.querySelector('#bord').innerHTML = ""; 
   document.getElementById('teideal').innerHTML = "";
   document.getElementById('fotheideal').innerHTML = "";
+  document.getElementById('eolas').innerHTML = "";
 }

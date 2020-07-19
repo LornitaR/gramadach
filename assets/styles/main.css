@@ -13,7 +13,8 @@ header {
 .logo {
   width: 2.5rem;
   float: left;
-  margin: 0.7rem 0rem 0rem 0.8rem;
+  margin: 0.9rem 0rem 0rem 0.8rem;
+  border-radius: 50%;
 }
 
 .menu {
@@ -51,6 +52,9 @@ main {
 }
 main h1 {
   font-size: 1.875rem;
+}
+main #eolas {
+  margin: 0 10% 0 10%;
 }
 
 .bord {
