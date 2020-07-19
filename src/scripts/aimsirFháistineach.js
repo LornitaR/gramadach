@@ -36,144 +36,144 @@ function aimsirFháistineach() {
                 </thead>
                 <tbody>
                   <tr class=" ">
-                    <td>I</th>
-                    <td>Déarfaidh mé</th>
-                    <td>Beirim</th>
-                    <td>Táim</th>
-                    <td>Cloisim</th>
-                    <td>Déanaim</th>
-                    <td>Faighim</th>
-                    <td>Feicim</th>
-                    <td>Ithim</th>
-                    <td>Tugaim</th>
-                    <td>Tagaim</th>
-                    <td>Téim</th>
+                    <td>I</td>
+                    <td>Déarfaidh mé</td>
+                    <td>Béarfaidh mé</td>
+                    <td>Beidh mé</td>
+                    <td>Cloisfidh mé</td>
+                    <td>Déanfaidh mé</td>
+                    <td>Gheobhaidh mé</td>
+                    <td>Feicfidh mé</td>
+                    <td>Íosfaidh mé</td>
+                    <td>Tabharfaidh mé</td>
+                    <td>Tiocfaidh mé</td>
+                    <td>Rachaidh mé</td>
                   </tr>
                   <tr class=" ">
-                    <td>You</th>
-                    <td>Déarfaidh tú</th>
-                    <td>Beireann tú</th>
-                    <td>Tá tú</th>
-                    <td>Cloiseann tú</th>
-                    <td>Déanann tú</th>
-                    <td>Faighean tú</th>
-                    <td>Feiceann tú</th>
-                    <td>Itheann tú</th>
-                    <td>Tugann tú</th>
-                    <td>Tagann tú</th>
-                    <td>Téann tú</th>
+                    <td>You</td>
+                    <td>Déarfaidh tú</td>
+                    <td>Béarfaidh tú</td>
+                    <td>Beidh tú</td>
+                    <td>Cloisfidh tú</td>
+                    <td>Déanfaidh tú</td>
+                    <td>Gheobhaidh tú</td>
+                    <td>Feicfidh tú</td>
+                    <td>Íosfaidh tú</td>
+                    <td>Tabharfaidh tú</td>
+                    <td>Tiocfaidh tú</td>
+                    <td>Rachaidh tú</td>
                   </tr>
                   <tr class=" ">
-                    <td>He / She</th>
-                    <td>Déarfaidh sé / sí</th>
-                    <td>Beireann sé / sí</th>
-                    <td>Tá sé / sí</th>
-                    <td>Cloiseann sé / sí</th>
-                    <td>Déanann sé / sí</th>
-                    <td>Faighean sé / sí</th>
-                    <td>Feiceann sé / sí</th>
-                    <td>Itheann sé / sí</th>
-                    <td>Tugann sé / sí</th>
-                    <td>Tagann sé / sí</th>
-                    <td>Téann sé / sí</th>
+                    <td>He / She</td>
+                    <td>Déarfaidh sé / sí</td>
+                    <td>Béarfaidh sé / sí</td>
+                    <td>Beidh sé / sí</td>
+                    <td>Cloisfidh sé / sí</td>
+                    <td>Déanfaidh sé / sí</td>
+                    <td>Gheobhaidh sé / sí</td>
+                    <td>Feicfidh sé / sí</td>
+                    <td>Íosfaidh sé / sí</td>
+                    <td>Tabharfaidh sé / sí</td>
+                    <td>Tiocfaidh sé / sí</td>
+                    <td>Rachaidh sé / sí</td>
                   </tr>
                   <tr class=" ">
-                    <td>We</th>
-                    <td>Déarfaimid</th>
-                    <td>Beirimid</th>
-                    <td>Táimid</th>
-                    <td>Cloisimid</th>
-                    <td>Déanaimid</th>
-                    <td>Faighimid</th>
-                    <td>Feicimid</th>
-                    <td>Ithimid</th>
-                    <td>Tugaimid</th>
-                    <td>Tagaimid</th>
-                    <td>Téimid</th>
+                    <td>We</td>
+                    <td>Déarfaimid</td>
+                    <td>Béarfaimid</td>
+                    <td>Beimid</td>
+                    <td>Cloisfimid</td>
+                    <td>Déanfaimid</td>
+                    <td>Gheobhaimid</td>
+                    <td>Feicfimid</td>
+                    <td>Íosfaimid</td>
+                    <td>Tabharfaimid</td>
+                    <td>Tiocfaimid</td>
+                    <td>Rachaimid</td>
                   </tr>
                   <tr class=" ">
                     <td>Ye / You(plural)</td>
-                    <td>Déarfaidh sibh</th>
-                    <td>Beireann sibh</th>
-                    <td>Tá sibh</th>
-                    <td>Cloiseann sibh</th>
-                    <td>Déanann sibh</th>
-                    <td>Faighean sibh</th>
-                    <td>Feiceann sibh</th>
-                    <td>Itheann sibh</th>
-                    <td>Tugann sibh</th>
-                    <td>Tagann sibh</th>
-                    <td>Téann sibh</th>
+                    <td>Déarfaidh sibh</td>
+                    <td>Béarfaidh sibh</td>
+                    <td>Beidh sibh</td>
+                    <td>Cloisfidh sibh</td>
+                    <td>Déanfaidh sibh</td>
+                    <td>Gheobhaidh sibh</td>
+                    <td>Feicfidh sibh</td>
+                    <td>Íosfaidh sibh</td>
+                    <td>Tabharfaidh sibh</td>
+                    <td>Tiocfaidh sibh</td>
+                    <td>Rachaidh sibh</td>
                   </tr>
                   <tr class=" ">
                     <td>They</td>
-                    <td>Déarfaidh siad</th>
-                    <td>Beireann siad</th>
-                    <td>Tá siad</th>
-                    <td>Cloiseann siad</th>
-                    <td>Déanann siad</th>
-                    <td>Faighean siad</th>
-                    <td>Feiceann siad</th>
-                    <td>Itheann siad</th>
-                    <td>Tugann siad</th>
-                    <td>Tagann siad</th>
-                    <td>Téann siad</th>
+                    <td>Déarfaidh siad</td>
+                    <td>Béarfaidh siad</td>
+                    <td>Beidh siad</td>
+                    <td>Cloisfidh siad</td>
+                    <td>Déanfaidh siad</td>
+                    <td>Gheobhaidh siad</td>
+                    <td>Feicfidh siad</td>
+                    <td>Íosfaidh siad</td>
+                    <td>Tabharfaidh siad</td>
+                    <td>Tiocfaidh siad</td>
+                    <td>Rachaidh siad</td>
                   </tr>
                   <tr class=" ">
                     <td>It is (an briathar saor)</td>
-                    <td>Déarfar</th>
-                    <td>Beirtar</th>
-                    <td>Táthar</th>
-                    <td>Cloistear</th>
-                    <td>Déantar</th>
-                    <td>Faightear</th>
-                    <td>Feictear</th>
-                    <td>Ithear</th>
-                    <td>Tugtar</th>
-                    <td>Tagtar</th>
-                    <td>Téitear</th>
+                    <td>Déarfar</td>
+                    <td>Béarfar</td>
+                    <td>Beifear</td>
+                    <td>Cloisfear</td>
+                    <td>Déanfar</td>
+                    <td>Gheofar</td>
+                    <td>Feicfear</td>
+                    <td>Íosfar</td>
+                    <td>Tabharfar</td>
+                    <td>Tiocfar</td>
+                    <td>Rachfar</td>
                   </tr>
                   <tr class="table-info">
                     <td>Ceist / Question</td>
-                    <td>An nDéarfaidh tú?</td>
-                    <td>An mbeireann tú?</td>
-                    <td>An bhfuil tú?</td>
-                    <td>An gcloiseann tú?</td>
-                    <td>An ndéanann tú?</td>
-                    <td>An bhfaigheann tú?</td>
-                    <td>An bhfeiceann tú?</td>
-                    <td>An itheann tú?</td>
-                    <td>An dtugann tú?</td>
-                    <td>An dtagann tú?</td>
-                    <td>An dtéann tú?</td>
+                    <td>An ndéarfaidh tú?</td>
+                    <td>An mbéarfaidh tú?</td>
+                    <td>An mbeidh tú?</td>
+                    <td>An gcloisfidh tú?</td>
+                    <td>An ndéanfaidh tú?</td>
+                    <td>An bhfaighidh tú?</td>
+                    <td>An bhfeicfidh tú?</td>
+                    <td>An íosfaidh tú?</td>
+                    <td>An dtabharfaidh tú?</td>
+                    <td>An dtiocfaidh tú?</td>
+                    <td>An rachaidh tú?</td>
                   </tr>
                   <tr class="table-danger">
                     <td>Negative / Diúltach</td>
                     <td>Ní déarfaidh mé</td>
-                    <td>Ní beirim</td>
-                    <td>Nílim</td>
-                    <td>Ní chloisim</td>
-                    <td>Ní dhéanaim</td>
-                    <td>Ní fhaighim</td>
-                    <td>Ní fheicim?</td>
-                    <td>Ní ithim</td>
-                    <td>Ní thugaim</td>
-                    <td>Ní thagaim</td>
-                    <td>Ní théim</td>
+                    <td>Ní bhéarfaidh mé</td>
+                    <td>Ní bheidh mé</td>
+                    <td>Ní chloisfidh mé</td>
+                    <td>Ní dhéanfaidh mé</td>
+                    <td>Ní bhfaighidh mé</td>
+                    <td>Ní fheicfidh mé</td>
+                    <td>Ní íosfaidh mé</td>
+                    <td>Ní thabharfaidh mé</td>
+                    <td>Ní thiocfaidh mé</td>
+                    <td>Ní rachaidh mé</td>
                   </tr>
                   <tr class="table-warning">
                     <td>Negative question</td>
-                    <td>Nach nDéarfaidh tú?</td>
-                    <td>Nach mbeireann tú?</td>
-                    <td>Nach bhfuil tú?</td>
-                    <td>Nach gcloiseann tú?</td>
-                    <td>Nach ndéanann tú?</td>
-                    <td>Nach bhfaigheann tú?</td>
-                    <td>Nach bhfeiceann tú?</td>
-                    <td>Nach itheann tú?</td>
-                    <td>Nach thugann tú?</td>
-                    <td>Nach dtagann tú?</td>
-                    <td>Nach dtéann tú?</td>
+                    <td>Nach ndéarfaidh tú?</td>
+                    <td>Nach mbéarfaidh tú?</td>
+                    <td>Nach mbeidh tú?</td>
+                    <td>Nach gcloisfidh tú?</td>
+                    <td>Nach ndéanfaidh tú?</td>
+                    <td>Nach bhfaighidh tú?</td>
+                    <td>Nach bhfeicfidh tú?</td>
+                    <td>Nach íosfaidh tú?</td>
+                    <td>Nach dtabharfaidh tú?</td>
+                    <td>Nach dtiocfaidh tú?</td>
+                    <td>Nach rachaidh tú?</td>
                   </tr>
                 </tbody>
               </table>`;

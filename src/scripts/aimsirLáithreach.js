@@ -154,7 +154,7 @@ function aimsirLáithreach() {
                     <td>Ní chloisim</td>
                     <td>Ní dhéanaim</td>
                     <td>Ní fhaighim</td>
-                    <td>Ní fheicim?</td>
+                    <td>Ní fheicim</td>
                     <td>Ní ithim</td>
                     <td>Ní thugaim</td>
                     <td>Ní thagaim</td>
