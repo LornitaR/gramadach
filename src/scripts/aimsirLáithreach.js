@@ -56,7 +56,7 @@ function aimsirLáithreach() {
                     <td>Tá tú</td>
                     <td>Cloiseann tú</td>
                     <td>Déanann tú</td>
-                    <td>Faighean tú</td>
+                    <td>Faigheann tú</td>
                     <td>Feiceann tú</td>
                     <td>Itheann tú</td>
                     <td>Tugann tú</td>
@@ -70,7 +70,7 @@ function aimsirLáithreach() {
                     <td>Tá sé / sí</td>
                     <td>Cloiseann sé / sí</td>
                     <td>Déanann sé / sí</td>
-                    <td>Faighean sé / sí</td>
+                    <td>Faigheann sé / sí</td>
                     <td>Feiceann sé / sí</td>
                     <td>Itheann sé / sí</td>
                     <td>Tugann sé / sí</td>
@@ -98,7 +98,7 @@ function aimsirLáithreach() {
                     <td>Tá sibh</td>
                     <td>Cloiseann sibh</td>
                     <td>Déanann sibh</td>
-                    <td>Faighean sibh</td>
+                    <td>Faigheann sibh</td>
                     <td>Feiceann sibh</td>
                     <td>Itheann sibh</td>
                     <td>Tugann sibh</td>
@@ -112,7 +112,7 @@ function aimsirLáithreach() {
                     <td>Tá siad</td>
                     <td>Cloiseann siad</td>
                     <td>Déanann siad</td>
-                    <td>Faighean siad</td>
+                    <td>Faigheann siad</td>
                     <td>Feiceann siad</td>
                     <td>Itheann siad</td>
                     <td>Tugann siad</td>
