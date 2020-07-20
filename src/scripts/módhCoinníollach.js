@@ -79,7 +79,7 @@ function módhCoinníollach() {
                   </tr>
                   <tr class=" ">
                     <td>We</td>
-                    <td>Déarfimis</td>
+                    <td>Déarfaimis</td>
                     <td>Bhéarfaimis</td>
                     <td>Bheimis</td>
                     <td>Chloisfimis</td>
