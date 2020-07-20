@@ -121,8 +121,8 @@ function aimsirLáithreach() {
                   </tr>
                   <tr class=" ">
                     <td>Passive (an briathar saor)</td>
-                    <td>Deirtar</td>
-                    <td>Beirtar</td>
+                    <td>Deirtear</td>
+                    <td>Beirtear</td>
                     <td>Táthar</td>
                     <td>Cloistear</td>
                     <td>Déantar</td>
