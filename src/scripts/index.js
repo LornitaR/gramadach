@@ -21,5 +21,5 @@ function taispeáinGachRud() {
   return gachRud;
 }
 
-document.querySelector('main').innerHTML = taispeáinGachRud();
+document.getElementById('content').innerHTML = taispeáinGachRud();
 // let bordAimsirLáithreach = aimsirLáithreach();

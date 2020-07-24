@@ -28,33 +28,31 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
 
-    <header>
-      <a href="http://lornitar.github.io/"><img class="logo" src="./assets/img/logo.png"></a>
-      Gramadach le Lorna
-      <button class="btn menu" type="button" id="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-      </button>
-      <div class="dropdown-menu menu-modal" aria-labelledby="menu">
-        <div></div>
-        <div>
-          <!-- <button class="dropdown-item" type="button">An Aimsir Caite</button> -->
-          <button class="dropdown-item" onclick="aimsirLáithreach()" type="button">An Aimsir Láithreach</button>
-          <button class="dropdown-item" onclick="aimsirCaite()" type="button">An Aimsir Caite</button>
-        </div>
-        <div>
-          <button class="dropdown-item" onclick="aimsirFháistineach()" type="button">An Aimsir Fháisteanach</button>
-          <button class="dropdown-item" onclick="módhCoinníollach()" type="button">An Modh Coinníollach</button>
-          <button class="dropdown-item"><a href='privacy-policy.html'>Privacy Policy</a></button>
-        </div>
-        <div></div>
-      </div>
+    <header class="grid-header">
+        <a href="http://lornitar.github.io/"><img class="logo" src="./assets/img/logo.png"></a>
+        <label class='header-label'>Gramadach le Lorna</label>
+        <button style='visibility:hidden' class="btn menu" type="button" id="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+        </button>
     </header>
 
     <main class='container-fluid grid-container'></main>
+    </div>
+    
+    <div class='sidenav'>
+      <button class="dropdown-item" onclick="aimsirLáithreach()" type="button">An Aimsir Láithreach</button>
+      <button class="dropdown-item" onclick="aimsirCaite()" type="button">An Aimsir Caite</button>
+      <button class="dropdown-item" onclick="aimsirFháistineach()" type="button">An Aimsir Fháisteanach</button>
+      <button class="dropdown-item" onclick="módhCoinníollach()" type="button">An Modh Coinníollach</button>
+      <button class="dropdown-item"><a href='privacy-policy.html'>Privacy Policy</a></button>
+    </div>
+    <main id='content' class='container-fluid grid-container main-grid'>
+      <!-- <div id='content'></div> -->
+    </main>
 
-    <footer class='fixed-bottom'>
+    <div class='footer-grid'>
         <a><i class="fas fa-envelope"></i> gramadach.le.lorna@gmail.com</a>
-    </footer>
+    </div>
 
     <!-- other javascript files -->
     <script src="./src/scripts/aimsirLáithreach.js"></script>

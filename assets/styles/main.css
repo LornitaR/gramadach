@@ -4,10 +4,26 @@
   font-weight: normal;
   font-style: normal;
 }
-header {
-  font-size: 2.5rem;
-  text-align: center;
+* {
+  /* Setting root font size*/
+  --root-size: 20;
+  font-size: calc(var(--root-size, 20) * 1px);
+  /* Typography */
+  --main-font: "Slabo 27px", serif;
+  /* Calculation, Ranges from 421px to 1199px */
+  --responsive: calc((var(--min-font) * var(--root-size) * 1px) + (var(--max-font) - var(--min-font)) * var(--root-size) * ((100vw - 420px) / (1200 - 420)));
+}
+
+.grid-header {
+  grid-area: header;
   background-color: #e9ecef;
+}
+
+.header-label {
+  margin-left: 40%;
+  font-size: 2rem;
+  --max-font: 2;
+  --min-font: 0.9;
 }
 
 .logo {
@@ -35,20 +51,41 @@ header {
   max-width: 95% !important;
 }
 
-footer {
+.footer-grid {
+  grid-area: footer;
   text-align: center;
   background-color: #e9ecef;
   font-family: Arial, Helvetica, sans-serif;
 }
+.footer-grid a {
+  --max-font: 1;
+  --min-font: 0.9;
+}
 
 body, h3, h4 {
   font-family: "UrchloGC";
+  grid-template-columns: 20% 75% 5%;
+  grid-template-rows: 7% 89% 4%;
+  grid-template-areas: "header header header header" "sidebar main main main" "footer footer footer footer";
+}
+
+body {
+  --max-font: 2.5;
+  --min-font: 0.8;
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-grid {
+  grid-area: main;
+  overflow-x: auto;
+  overflow-y: auto;
 }
 
 main {
   text-align: center;
-  font-size: 16px;
-  max-width: 95%;
+  font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 main h1 {
@@ -66,7 +103,59 @@ main #eolas {
   background-color: #d6efc0;
   margin-right: 20%;
   margin-left: 20%;
+  --max-font: 1;
+  --min-font: 0.5;
+}
+.privacy-policy a {
+  --max-font: 1;
+  --min-font: 0.5;
+}
+
+.sidenav {
+  height: 100%;
+  --max-font: 0.8;
+  --min-font: 0.5;
+  background-color: #d6efc0;
+  overflow-x: hidden;
+  grid-area: sidebar;
   font-size: 1rem;
+}
+
+@media (min-width: 1000px) {
+  .sidenav, header, .privacy-policy {
+    font-size: calc(var(--max-font) * var(--root-size) * 1px);
+  }
+
+  body {
+    grid-template-columns: 20% 75% 5%;
+    grid-template-rows: 7% 89% 4%;
+    grid-template-areas: "header header header header" "sidebar main main main" "footer footer footer footer";
+  }
+}
+@media (max-width: 420px) {
+  .sidenav, header, .privacy-policy, .privacy-policy a, .footer-grid a, .header-label {
+    font-size: calc(var(--min-font) * var(--root-size) * 1px);
+  }
+
+  .menu {
+    visibility: visible !important;
+  }
+
+  body {
+    width: auto;
+    height: 95%;
+    grid-template-columns: 100%;
+    grid-template-rows: 5% 91% 4%;
+    grid-template-areas: "header" "main" "footer";
+  }
+
+  .logo {
+    margin: 0.4rem;
+  }
+
+  .header-label {
+    margin: 0.5rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
