@@ -188,4 +188,5 @@ function aimsirFháistineachClear() {
   document.getElementById('teideal').innerHTML = "";
   document.getElementById('fotheideal').innerHTML = "";
   document.getElementById('eolas').innerHTML = "";
+  document.getElementById('privacy-policy').innerHTML = "";
 }

@@ -1,8 +1,10 @@
 // update the HTML here
 function taispeáinGachRud() {
   let header = `&nbsp<h3 id='teideal'></h3>&nbsp
-                &nbsp<h4 id='fotheideal'></h4>&nbsp`
-  
+  &nbsp<h4 id='fotheideal'></h4>&nbsp`
+
+  let privacyPolicy = `&nbsp<p id='privacy-policy' class='privacy-policy'>This site uses cookies to help understand how our site is being used.  By continuing to browse, you agree to the use of cookies. For more information, or to opt out, see our <a href='privacy-policy.html'>Privacy Policy</a> and <a href='src/cookies-policy.html'>Cookies Policy</a>.</p>`
+
   let bord = `<div id="bord" class="table-responsive-sm bord"></div>`
 
   let eolas = `<div id="eolas"><h4>Welcome!</h4>&nbsp
@@ -15,7 +17,7 @@ function taispeáinGachRud() {
   </div>`;
 
   
-  gachRud = header + bord + eolas;
+  gachRud = privacyPolicy + header + bord + eolas;
   return gachRud;
 }
 
