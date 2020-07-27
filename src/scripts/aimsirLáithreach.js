@@ -180,6 +180,7 @@ function aimsirLáithreach() {
 
   document.querySelector('#bord').innerHTML = bord;
   document.getElementById('teideal').innerHTML = teideal;
+  document.getElementById('teideal').outerHTML;
   document.getElementById('fotheideal').innerHTML = fotheideal;
 }
 
@@ -188,5 +189,4 @@ function aimsirLáithreachClear() {
   document.getElementById('teideal').innerHTML = "";
   document.getElementById('fotheideal').innerHTML = "";
   document.getElementById('eolas').innerHTML = "";
-  document.getElementById('privacy-policy').innerHTML = "";
 }

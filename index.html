@@ -29,21 +29,22 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
 
     <header class="grid-header">
-        <a href="http://lornitar.github.io/"><img class="logo" src="./assets/img/logo.png"></a>
+        <a><img role="button" alt='logo' onclick="taispeáinGachRud()" class="logo" src="./assets/img/logo.png"></a>
         <label class='header-label'>Gramadach le Lorna</label>
-        <button style='visibility:hidden' class="btn menu" type="button" id="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button class="btn menu" onclick="taispeáinMenu()" type="button" id="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+        </button>
+        <button style='visibility:hidden' class="btn dún" onclick="dúnMenu()" type="button" id="dún" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-close fa-2x" aria-hidden="true"></i>
         </button>
     </header>
 
-    <main class='container-fluid grid-container'></main>
-    </div>
-    
     <div class='sidenav'>
       <button class="dropdown-item" onclick="aimsirLáithreach()" type="button">An Aimsir Láithreach</button>
       <button class="dropdown-item" onclick="aimsirCaite()" type="button">An Aimsir Caite</button>
       <button class="dropdown-item" onclick="aimsirFháistineach()" type="button">An Aimsir Fháisteanach</button>
       <button class="dropdown-item" onclick="módhCoinníollach()" type="button">An Modh Coinníollach</button>
+      <a class="dropdown-item" href="https://lornitar.github.io/" type="button">Eolas Breise</a>
       <button class="dropdown-item"><a href='privacy-policy.html'>Privacy Policy</a></button>
     </div>
     <main id='content' class='container-fluid grid-container main-grid'>

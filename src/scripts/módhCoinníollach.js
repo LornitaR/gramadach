@@ -1,6 +1,6 @@
 function módhCoinníollach() {
   this.módhCoinníollachClear();
-  let teideal = `An Aimsir Fháistineach (The Conditional Tense)`;
+  let teideal = `An Módh Coinníollach (The Conditional Tense)`;
   let fotheideal = `Na Briathra Neamhrialta (Irregular Verbs)`;
   let bord = `
                 <table id="briathra" class="table table-striped">
@@ -180,6 +180,7 @@ function módhCoinníollach() {
 
   document.querySelector('#bord').innerHTML = bord;
   document.getElementById('teideal').innerHTML = teideal;
+  document.getElementById('teideal').outerHTML;
   document.getElementById('fotheideal').innerHTML = fotheideal;
 }
 
@@ -188,5 +189,4 @@ function módhCoinníollachClear() {
   document.getElementById('teideal').innerHTML = "";
   document.getElementById('fotheideal').innerHTML = "";
   document.getElementById('eolas').innerHTML = "";
-  document.getElementById('privacy-policy').innerHTML = "";
 }

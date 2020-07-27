@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "UrchloGC";
   src: url("../fonts/UrchloGC.eot"), url("../fonts/urw/UrchloGC.woff") format("woff"), url("../fonts/UrchloGC.ttf") format("truetype"), url("../fonts/UrchloGC.svg") format("svg");
@@ -6,10 +7,11 @@
 }
 * {
   /* Setting root font size*/
+  padding: 0px;
   --root-size: 20;
   font-size: calc(var(--root-size, 20) * 1px);
   /* Typography */
-  --main-font: "Slabo 27px", serif;
+  --main-font: Arial, Helvetica, sans-serif;
   /* Calculation, Ranges from 421px to 1199px */
   --responsive: calc((var(--min-font) * var(--root-size) * 1px) + (var(--max-font) - var(--min-font)) * var(--root-size) * ((100vw - 420px) / (1200 - 420)));
 }
@@ -19,11 +21,13 @@
   background-color: #e9ecef;
 }
 
+.dropdown-item {
+  font-size: 0.8rem;
+}
+
 .header-label {
   margin-left: 40%;
-  font-size: 2rem;
-  --max-font: 2;
-  --min-font: 0.9;
+  font-size: calc(1.75rem + 1vmin);
 }
 
 .logo {
@@ -31,12 +35,6 @@
   float: left;
   margin: 0.9rem 0rem 0rem 0.8rem;
   border-radius: 50%;
-}
-
-.menu {
-  width: 2.5rem;
-  float: right;
-  margin: 0.4rem 0.8rem 0rem 0rem;
 }
 
 .menu-modal {
@@ -57,9 +55,8 @@
   background-color: #e9ecef;
   font-family: Arial, Helvetica, sans-serif;
 }
-.footer-grid a {
-  --max-font: 1;
-  --min-font: 0.9;
+.footer-grid a, .footer-grid i {
+  font-size: calc(0.5em + 1vmin);
 }
 
 body, h3, h4 {
@@ -69,10 +66,16 @@ body, h3, h4 {
   grid-template-areas: "header header header header" "sidebar main main main" "footer footer footer footer";
 }
 
+h3 {
+  font-size: calc(0.50em + 1vmin);
+}
+
+h4 {
+  font-size: calc(0.35em + 1vmin);
+}
+
 body {
-  --max-font: 2.5;
-  --min-font: 0.8;
-  display: grid;
+  font-size: calc(2em + 1vmin);
   height: 100vh;
   width: 100vw;
 }
@@ -85,76 +88,122 @@ body {
 
 main {
   text-align: center;
-  font-size: 1rem;
+  font-size: calc(0.75em + 1vmin);
   font-family: Arial, Helvetica, sans-serif;
 }
 main h1 {
-  font-size: 1.875rem;
+  font-size: calc(1em + 1vmin);
 }
 main #eolas {
   margin: 0 10% 0 10%;
+  font-size: calc(0.75em + 1vmin);
 }
 
 .bord {
   overflow-x: auto;
 }
+.bord table th, .bord td {
+  font-size: calc(0.35rem + 1vmin);
+}
+
+#teideal {
+  margin-top: calc(0.55rem + 1vmin);
+}
+
+#fothteideal {
+  margin-top: calc(0.85rem + 1vmin);
+  margin-bottom: calc(1.5rem + 1vmin);
+}
 
 .privacy-policy {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #d6efc0;
   margin-right: 20%;
   margin-left: 20%;
-  --max-font: 1;
-  --min-font: 0.5;
+  margin-top: calc(0.55rem + 1vmin);
+  margin-bottom: calc(3rem + 1vmin);
+  font-size: calc(0.55rem + 1vmin);
 }
 .privacy-policy a {
-  --max-font: 1;
-  --min-font: 0.5;
+  font-size: calc(0.55rem + 1vmin);
 }
 
 .sidenav {
   height: 100%;
-  --max-font: 0.8;
-  --min-font: 0.5;
   background-color: #d6efc0;
   overflow-x: hidden;
   grid-area: sidebar;
   font-size: 1rem;
 }
+.sidenav .dropdown-item, .sidenav .dropdown-item a {
+  font-size: calc(0.35rem + 1vmin);
+}
 
-@media (min-width: 1000px) {
-  .sidenav, header, .privacy-policy {
-    font-size: calc(var(--max-font) * var(--root-size) * 1px);
-  }
-
+@media (min-width: 1350px) {
   body {
-    grid-template-columns: 20% 75% 5%;
-    grid-template-rows: 7% 89% 4%;
+    display: grid;
+    grid-template-columns: 12% 33% 30% 25%;
+    grid-template-rows: 7% 90% 3%;
     grid-template-areas: "header header header header" "sidebar main main main" "footer footer footer footer";
   }
-}
-@media (max-width: 420px) {
-  .sidenav, header, .privacy-policy, .privacy-policy a, .footer-grid a, .header-label {
-    font-size: calc(var(--min-font) * var(--root-size) * 1px);
+
+  .footer-grid a {
+    margin-left: 10%;
   }
 
   .menu {
-    visibility: visible !important;
+    visibility: hidden !important;
+  }
+}
+@media (min-width: 700px) and (max-width: 1350px) {
+  body {
+    display: grid;
+    grid-template-columns: 20% 70% 5% 5%;
+    grid-template-rows: 10% 86% 4%;
+    grid-template-areas: "header header header header" "sidebar main main main" "footer footer footer footer";
+  }
+
+  .footer-grid a {
+    margin-left: 10%;
+  }
+
+  .menu {
+    visibility: hidden !important;
+  }
+}
+@media (max-width: 420px) {
+  .menu, .dún {
+    width: 2.5rem;
+    font-size: 0.7rem;
+    float: right;
+    margin: 0.1rem 0.5rem 0rem 0rem;
+  }
+
+  .footer-grid {
+    line-height: 1;
   }
 
   body {
     width: auto;
-    height: 95%;
-    grid-template-columns: 100%;
-    grid-template-rows: 5% 91% 4%;
-    grid-template-areas: "header" "main" "footer";
+    height: auto;
+    display: grid;
+    grid-template-columns: 0% 100%;
+    grid-template-rows: 6% 91% 3%;
+    grid-template-areas: "header header" "sidebar main" "footer footer";
   }
 
   .logo {
-    margin: 0.4rem;
+    margin: 0.5rem 0.4rem 0.4rem 0.4rem;
+    width: 2rem;
+  }
+
+  #eolas p {
+    font-size: 0.7rem;
   }
 
   .header-label {
-    margin: 0.5rem;
+    margin: 0.5rem 0rem 0.5rem 0.5rem;
+    font-size: 1rem;
   }
 }
 
