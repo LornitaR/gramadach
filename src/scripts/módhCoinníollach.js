@@ -1,6 +1,6 @@
 function módhCoinníollach() {
   this.módhCoinníollachClear();
-  let teideal = `An Módh Coinníollach (The Conditional Tense)`;
+  let teideal = `An Módh Coinníollach (The Conditional Mode)`;
   let fotheideal = `Na Briathra Neamhrialta (Irregular Verbs)`;
   let bord = `
                 <table id="briathra" class="table table-striped">
@@ -37,7 +37,7 @@ function módhCoinníollach() {
                 <tbody>
                   <tr class=" ">
                     <td>I</td>
-                    <td>Déarfinn</td>
+                    <td>Déarfainn</td>
                     <td>Bhéarfainn</td>
                     <td>Bheinn</td>
                     <td>Cloisfinn</td>
@@ -107,7 +107,7 @@ function módhCoinníollach() {
                   </tr>
                   <tr class=" ">
                     <td>They</td>
-                    <td>Déarfidís</td>
+                    <td>Déarfaidís</td>
                     <td>Bhéarfaidís</td>
                     <td>Bheidís</td>
                     <td>Chloisfidís</td>
@@ -149,7 +149,7 @@ function módhCoinníollach() {
                   </tr>
                   <tr class="table-danger">
                     <td>Negative / Diúltach</td>
-                    <td>Ní déarfinn</td>
+                    <td>Ní déarfainn</td>
                     <td>Ní bhéarfainn</td>
                     <td>Ní bheinn</td>
                     <td>Ní chloisfinn</td>
