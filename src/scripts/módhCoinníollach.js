@@ -1,6 +1,6 @@
 function módhCoinníollach() {
   this.módhCoinníollachClear();
-  let teideal = `An Aimsir Fháistineach (The Conditional Tense)`;
+  let teideal = `An Módh Coinníollach (The Conditional Tense)`;
   let fotheideal = `Na Briathra Neamhrialta (Irregular Verbs)`;
   let bord = `
                 <table id="briathra" class="table table-striped">
