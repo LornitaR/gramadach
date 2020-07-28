@@ -1,6 +1,6 @@
-function aimsirCaite() {
-  this.aimsirCaiteClear();
-  let teideal = `An Aimsir Caite (The Past Tense)`;
+function aimsirChaite() {
+  this.aimsirChaiteClear();
+  let teideal = `An Aimsir Chaite (The Past Tense)`;
   let fotheideal = `Na Briathra Neamhrialta (Irregular Verbs)`;
   let bord = `
                 <table id="briathra" class="table table-striped">
