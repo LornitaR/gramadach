@@ -183,7 +183,7 @@ function aimsirChaite() {
   document.getElementById('fotheideal').innerHTML = fotheideal;
 }
 
-function aimsirCaiteClear() {
+function aimsirChaiteClear() {
   document.querySelector('#bord').innerHTML = ""; 
   document.getElementById('teideal').innerHTML = "";
   document.getElementById('fotheideal').innerHTML = "";
