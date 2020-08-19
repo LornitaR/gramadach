@@ -1,6 +1,6 @@
 function aimsirChaite() {
   this.aimsirChaiteClear();
-  if(window.screen.width <= 420) {
+  if(window.visualViewport.width <= 420) {
     this.dúnMenu();
   }
 
