@@ -1,5 +1,9 @@
 function aimsirLáithreach() {
   this.aimsirLáithreachClear();
+  if(innerWidth <= '420px') {
+    this.dúnMenu();
+  }
+
   let teideal = `An Aimsir Láithreach (The Present Tense)`;
   let fotheideal = `Na Briathra Neamhrialta (Irregular Verbs)`;
   let bord = `
@@ -180,6 +184,7 @@ function aimsirLáithreach() {
 
   document.querySelector('#bord').innerHTML = bord;
   document.getElementById('teideal').innerHTML = teideal;
+  document.getElementById('teideal').outerHTML;
   document.getElementById('fotheideal').innerHTML = fotheideal;
 }
 
@@ -188,5 +193,4 @@ function aimsirLáithreachClear() {
   document.getElementById('teideal').innerHTML = "";
   document.getElementById('fotheideal').innerHTML = "";
   document.getElementById('eolas').innerHTML = "";
-  document.getElementById('privacy-policy').innerHTML = "";
 }

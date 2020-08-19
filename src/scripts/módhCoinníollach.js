@@ -1,5 +1,9 @@
 function módhCoinníollach() {
   this.módhCoinníollachClear();
+  if(innerWidth <= '420px') {
+    this.dúnMenu();
+  }
+
   let teideal = `An Módh Coinníollach (The Conditional Mode)`;
   let fotheideal = `Na Briathra Neamhrialta (Irregular Verbs)`;
   let bord = `
@@ -180,6 +184,7 @@ function módhCoinníollach() {
 
   document.querySelector('#bord').innerHTML = bord;
   document.getElementById('teideal').innerHTML = teideal;
+  document.getElementById('teideal').outerHTML;
   document.getElementById('fotheideal').innerHTML = fotheideal;
 }
 
@@ -188,5 +193,4 @@ function módhCoinníollachClear() {
   document.getElementById('teideal').innerHTML = "";
   document.getElementById('fotheideal').innerHTML = "";
   document.getElementById('eolas').innerHTML = "";
-  document.getElementById('privacy-policy').innerHTML = "";
 }
