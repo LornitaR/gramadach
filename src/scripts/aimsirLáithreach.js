@@ -1,6 +1,6 @@
 function aimsirLáithreach() {
   this.aimsirLáithreachClear();
-  if(innerWidth <= 420) {
+  if(window.screen.width <= 420) {
     this.dúnMenu();
   }
 

@@ -1,6 +1,6 @@
 function módhCoinníollach() {
   this.módhCoinníollachClear();
-  if(innerWidth <= 420) {
+  if(window.screen.width <= 420) {
     this.dúnMenu();
   }
 
