@@ -199,7 +199,7 @@ main #eolas {
     display: grid;
     grid-template-columns: 0% 100%;
     grid-template-rows: 8% 88% 4%;
-    grid-template-areas: "header header" "sidebar main" "footer footer";
+    grid-template-areas: "header header" "main main" "footer footer";
   }
 
   .logo {
