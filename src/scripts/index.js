@@ -28,13 +28,13 @@ function taispeáinGachRud() {
 document.getElementById('content').innerHTML = taispeáinGachRud();
 
 function taispeáinMenu() {
-  document.getElementsByTagName("BODY")[0].style.gridTemplateColumns = '100% 0%';
+  document.getElementsByTagName("BODY")[0].style.gridTemplateAreas = '"header header" "sidebar sidebar" "footer footer"';
   document.getElementById('menu').style.display = 'none';
   document.getElementById('dún').style.visibility = 'visible';
 }
 
 function dúnMenu() {
-  document.getElementsByTagName("BODY")[0].style.gridTemplateColumns = '0% 100%';
+  document.getElementsByTagName("BODY")[0].style.gridTemplateAreas = '"header header" "main main" "footer footer"';
   document.getElementById('dún').style.visibility = 'hidden';
   document.getElementById('menu').style.display = 'block';
 }
