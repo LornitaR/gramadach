@@ -1,8 +1,6 @@
 function aimsirChaite() {
   this.aimsirChaiteClear();
-
-  var width = window.matchMedia("(max-width: 420px)")
-  if(width.matches) {
+  if(window.visualViewport.width <= 420) {
     this.dúnMenu();
   }
 
