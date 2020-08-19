@@ -1,6 +1,8 @@
 function aimsirLáithreach() {
   this.aimsirLáithreachClear();
-  this.dúnMenu();
+  if(innerWidth <= '420px') {
+    this.dúnMenu();
+  }
 
   let teideal = `An Aimsir Láithreach (The Present Tense)`;
   let fotheideal = `Na Briathra Neamhrialta (Irregular Verbs)`;

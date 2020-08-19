@@ -1,8 +1,12 @@
-function aimsirCaite() {
-  this.aimsirCaiteClear();
-  this.dúnMenu();
+function aimsirChaite() {
+  this.aimsirChaiteClear();
+  if(innerWidth <= '420px') {
+    if(innerWidth <= '420px') {
+    this.dúnMenu();
+  }
+  }
 
-  let teideal = `An Aimsir Caite (The Past Tense)`;
+  let teideal = `An Aimsir Chaite (The Past Tense)`;
   let fotheideal = `Na Briathra Neamhrialta (Irregular Verbs)`;
   let bord = `
                 <table id="briathra" class="table table-striped">
@@ -186,7 +190,7 @@ function aimsirCaite() {
   document.getElementById('fotheideal').innerHTML = fotheideal;
 }
 
-function aimsirCaiteClear() {
+function aimsirChaiteClear() {
   document.querySelector('#bord').innerHTML = ""; 
   document.getElementById('teideal').innerHTML = "";
   document.getElementById('fotheideal').innerHTML = "";

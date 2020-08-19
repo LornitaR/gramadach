@@ -1,6 +1,8 @@
 function aimsirFháistineach() {
   this.aimsirFháistineachClear();
-  this.dúnMenu();
+  if(innerWidth <= '420px') {
+    this.dúnMenu();
+  }
 
   let teideal = `An Aimsir Fháistineach (The Future Tense)`;
   let fotheideal = `Na Briathra Neamhrialta (Irregular Verbs)`;

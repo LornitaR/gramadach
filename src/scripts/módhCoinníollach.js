@@ -1,6 +1,8 @@
 function módhCoinníollach() {
   this.módhCoinníollachClear();
-  this.dúnMenu();
+  if(innerWidth <= '420px') {
+    this.dúnMenu();
+  }
 
   let teideal = `An Módh Coinníollach (The Conditional Mode)`;
   let fotheideal = `Na Briathra Neamhrialta (Irregular Verbs)`;
