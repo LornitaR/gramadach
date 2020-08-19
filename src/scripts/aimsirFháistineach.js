@@ -1,6 +1,6 @@
 function aimsirFháistineach() {
   this.aimsirFháistineachClear();
-  if(innerWidth <= '420px') {
+  if(innerWidth <= 420) {
     this.dúnMenu();
   }
 
