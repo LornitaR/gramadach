@@ -1,9 +1,7 @@
 function aimsirChaite() {
   this.aimsirChaiteClear();
-  if(innerWidth <= '420px') {
-    if(innerWidth <= '420px') {
+  if(innerWidth <= 420) {
     this.dúnMenu();
-  }
   }
 
   let teideal = `An Aimsir Chaite (The Past Tense)`;
