@@ -1,5 +1,7 @@
 function aimsirFháistineach() {
   this.aimsirFháistineachClear();
+  this.dúnMenu();
+
   let teideal = `An Aimsir Fháistineach (The Future Tense)`;
   let fotheideal = `Na Briathra Neamhrialta (Irregular Verbs)`;
   let bord = `

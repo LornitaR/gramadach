@@ -1,5 +1,7 @@
 function aimsirCaite() {
   this.aimsirCaiteClear();
+  this.dúnMenu();
+
   let teideal = `An Aimsir Caite (The Past Tense)`;
   let fotheideal = `Na Briathra Neamhrialta (Irregular Verbs)`;
   let bord = `
