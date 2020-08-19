@@ -29,12 +29,12 @@ document.getElementById('content').innerHTML = taispeáinGachRud();
 
 function taispeáinMenu() {
   document.getElementsByTagName("BODY")[0].style.gridTemplateColumns = '100% 0%';
-  document.getElementById('menu').style.visibility = 'hidden';
+  document.getElementById('menu').style.display = 'none';
   document.getElementById('dún').style.visibility = 'visible';
 }
 
 function dúnMenu() {
   document.getElementsByTagName("BODY")[0].style.gridTemplateColumns = '0% 100%';
   document.getElementById('dún').style.visibility = 'hidden';
-  document.getElementById('menu').style.visibility = 'visible';
+  document.getElementById('menu').style.display = 'block';
 }
