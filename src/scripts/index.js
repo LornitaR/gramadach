@@ -1,5 +1,6 @@
 // update the HTML here
 function taispeáinGachRud() {
+  this.dúnMenu();
 
   let header = `<h3 id='teideal'>
   <label id='privacy-policy' class='privacy-policy'>
@@ -26,9 +27,3 @@ function taispeáinGachRud() {
 }
 
 document.getElementById('content').innerHTML = taispeáinGachRud();
-
-function taispeáinMenu() {
-  document.getElementsByTagName("BODY")[0].style.gridTemplateAreas = '"header header" "sidebar sidebar" "footer footer"';
-  document.getElementById('menu').style.display = 'none';
-  document.getElementById('dún').style.visibility = 'visible';
-}
